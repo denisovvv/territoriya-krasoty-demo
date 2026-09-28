@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Территория красоты — медицинский салон косметологии в Старом Осколе</title>
+  <meta name="description" content="Медицинский салон косметологии «Территория красоты», Старый Оскол, м-н Лесной, 10. Процедуры для лица и тела, врач-косметолог и косметологи-эстетисты.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#001b40">
+  <link rel="preload" href="assets/fonts/tenor-cyr.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/golos-cyr.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/v5.css">
+  <link rel="icon" href="assets/img/logo-original.png">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body data-page="home5" class="v5">
+  <canvas class="silk" data-silk aria-hidden="true"></canvas>
+
+  <div class="demo-bar">
+    <div class="wrap">
+      <span class="ghost-swatch" aria-hidden="true"></span>
+      <span>Демо, вариант 5. Данные — из сводки по салону. Пунктиром отмечено то, что нужно получить от салона.</span>
+    </div>
+  </div>
+
+  <header class="site-header site-header--clear">
+    <div class="wrap">
+      <a class="brand" href="index.html" aria-label="Территория красоты — на главную">
+        <img src="assets/img/logo-white.png" alt="Территория красоты" width="340" height="230">
+      </a>
+      <nav class="nav" aria-label="Основное меню">
+        <a href="index.html" aria-current="page">Главная</a>
+        <a href="uslugi.html">Услуги</a>
+        <a href="mastera.html">Мастера</a>
+        <a href="kontakty.html">Контакты</a>
+      </nav>
+      <a class="btn btn--light" href="kontakty.html#zapis">Записаться</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Открыть меню">
+        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true"><path d="M3 6h14M3 10h14M3 14h14"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. Имя на шёлке -->
+    <section class="s-hero" aria-labelledby="hero-title">
+      <div class="wrap s-hero__inner">
+        <h1 class="s-hero__title" id="hero-title" data-in>Территория красоты</h1>
+        <p class="s-hero__sub" data-in>Медицинский салон косметологии в&nbsp;Старом Осколе, м-н&nbsp;Лесной,&nbsp;10</p>
+        <div class="s-hero__actions" data-in>
+          <a class="pill5 pill5--light" href="uslugi.html">Каталог процедур</a>
+          <a class="pill5 pill5--line" href="kontakty.html#zapis">Записаться</a>
+        </div>
+        <dl class="s-hero__facts" data-in data-facts></dl>
+      </div>
+      <p class="s-hero__hint" aria-hidden="true">Проведите курсором, и ткань отзовётся</p>
+    </section>
+
+    <!-- 2. Лицо и тело: атлас зон из варианта 1 на стеклянной подложке -->
+    <section class="s-sec" aria-labelledby="zones-title">
+      <div class="wrap">
+        <h2 class="s-title" id="zones-title" data-in>Лицо и&nbsp;тело</h2>
+        <p class="s-lead" data-in>Выберите зону — покажем процедуры и&nbsp;цены. Всего <span data-count="total"></span> процедур, прайс от&nbsp;9&nbsp;января.</p>
+        <div class="atlas5 atlas is-developing" data-atlas>
+        <div class="plate-tabs" role="tablist" aria-label="Схема">
+          <button type="button" role="tab" aria-selected="true" data-plate-tab="face">Лицо</button>
+          <button type="button" role="tab" aria-selected="false" data-plate-tab="body">Тело</button>
+        </div>
+
+        <div class="plates">
+          <!-- Таблица I. Лицо -->
+          <article class="plate" data-plate="face" aria-labelledby="plate-face-title">
+            <header class="plate__caption">
+              <h2 class="plate__title" id="plate-face-title">Лицо</h2>
+              <span class="plate-label"><span class="roman">Табл. I</span> · зоны</span>
+            </header>
+            <div class="plate__figure">
+              <svg viewBox="0 0 400 520" role="img" aria-labelledby="plate-face-desc">
+                <desc id="plate-face-desc">Рисунок лица в профиль с отмеченными зонами процедур</desc>
+                <g class="fig-grid" aria-hidden="true">
+                  <path d="M0 130H400M0 260H400M0 390H400M100 0V520M200 0V520M300 0V520"/>
+                </g>
+                <image class="fig-img" href="assets/img/face-sketch.webp" x="0" y="58" width="400" height="404" preserveAspectRatio="xMidYMid meet" aria-hidden="true"/>
+                <g data-marks="face"></g>
+              </svg>
+            </div>
+            <ol class="legend" data-legend="face"></ol>
+            <footer class="plate__foot">
+              <span data-plate-total="face"></span>
+              <a href="uslugi.html?plate=face">Все процедуры для лица
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
+              </a>
+            </footer>
+          </article>
+
+          <!-- Таблица II. Тело -->
+          <article class="plate" data-plate="body" aria-labelledby="plate-body-title">
+            <header class="plate__caption">
+              <h2 class="plate__title" id="plate-body-title">Тело</h2>
+              <span class="plate-label"><span class="roman">Табл. II</span> · зоны</span>
+            </header>
+            <div class="plate__figure">
+              <svg viewBox="0 0 400 520" role="img" aria-labelledby="plate-body-desc">
+                <desc id="plate-body-desc">Рисунок фигуры в полный рост с отмеченными зонами процедур</desc>
+                
+                <g class="fig-grid" aria-hidden="true">
+                  <path d="M0 130H400M0 260H400M0 390H400M100 0V520M200 0V520M300 0V520"/>
+                </g>
+                <g class="fig-img fig-turn" aria-hidden="true"><image class="fig-front" href="assets/img/body-sketch.webp" x="24" y="0" width="352" height="520" preserveAspectRatio="xMidYMid meet"/><image class="fig-back" href="assets/img/body-back-sketch.webp" x="24" y="0" width="352" height="520" preserveAspectRatio="xMidYMid meet"/></g>
+                <g data-marks="body"></g>
+              </svg>
+            </div>
+            <ol class="legend" data-legend="body"></ol>
+            <footer class="plate__foot">
+              <span data-plate-total="body"></span>
+              <a href="uslugi.html?plate=body">Все процедуры для тела
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
+              </a>
+            </footer>
+          </article>
+          </div>
+        </div>
+        <nav class="cats5" aria-label="Разделы каталога" data-cats></nav>
+      </div>
+    </section>
+
+    <!-- 3. Врач или эстетист -->
+    <section class="s-sec" aria-labelledby="levels-title">
+      <div class="wrap">
+        <h2 class="s-title" id="levels-title" data-in>Врач или эстетист</h2>
+        <p class="s-lead" data-in>Одна процедура может стоить по-разному: <span data-count="both"></span> процедур выполняют специалисты обоих уровней.</p>
+        <article class="card5 card5--wide" data-in>
+          <div class="levels5">
+            <div class="levels5__col">
+              <p class="levels5__role">Врач-косметолог · Алёна</p>
+              <p class="levels5__big" data-count="onlyD"></p>
+              <p class="levels5__text">процедур выполняет только врач, включая инъекции и&nbsp;назначение препаратов.</p>
+            </div>
+            <div class="levels5__col">
+              <p class="levels5__role">Косметолог-эстетист · Злата, Полина</p>
+              <p class="levels5__big" data-count="onlyE"></p>
+              <p class="levels5__text">процедур выполняют только эстетисты: аппаратные и&nbsp;уходовые.</p>
+            </div>
+          </div>
+          <div class="switch5" role="group" aria-label="Показать цены" data-switch>
+            <button type="button" data-level="all" aria-pressed="true">Обе цены</button>
+            <button type="button" data-level="d" aria-pressed="false">Врач</button>
+            <button type="button" data-level="e" aria-pressed="false">Эстетист</button>
+          </div>
+          <ul class="dual5" data-dual></ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- 4. Аппараты -->
+    <section class="s-sec" aria-labelledby="devices-title">
+      <div class="wrap">
+        <h2 class="s-title" id="devices-title" data-in>Аппараты</h2>
+        <p class="s-lead" data-in>Шесть флагманских аппаратов из&nbsp;шести стран. Фото и&nbsp;модели предоставит салон.</p>
+      </div>
+      <div class="wrap show5">
+        <div class="show5__sticky">
+          <div class="show5__frame">
+            <div class="show5__ghost"><span>Фото аппарата — от&nbsp;салона</span></div>
+            <p class="show5__name" data-show-name></p>
+            <p class="show5__meta" data-show-meta></p>
+            <div class="show5__count" aria-hidden="true"><span data-show-idx>01</span><span data-show-total></span><i><b data-show-bar></b></i></div>
+          </div>
+        </div>
+        <ol class="show5__list" data-show-list></ol>
+      </div>
+      <div class="wrap">
+        <p data-in><a class="pill5 pill5--line" href="uslugi.html?tab=devices">Всё оборудование</a></p>
+      </div>
+    </section>
+
+    <!-- 5. Специалисты -->
+    <section class="s-sec" aria-labelledby="team-title">
+      <div class="wrap">
+        <h2 class="s-title" id="team-title" data-in>Специалисты</h2>
+        <div class="cards3" data-team></div>
+      </div>
+    </section>
+
+    <!-- 6. Контакты -->
+    <section class="s-sec s-sec--last" aria-labelledby="visit-title">
+      <div class="wrap">
+        <article class="card5 card5--wide visit5" data-in>
+          <div>
+            <h2 class="visit5__title" id="visit-title">Ждём вас на&nbsp;Лесном</h2>
+            <p class="visit5__addr">г.&nbsp;Старый Оскол, м-н&nbsp;Лесной,&nbsp;10</p>
+            <div class="addr5">
+              <button type="button" class="chip5" data-copy="г. Старый Оскол, м-н Лесной, 10">Скопировать адрес</button>
+              <a class="chip5" href="https://yandex.ru/maps/?rtext=~%D0%A1%D1%82%D0%B0%D1%80%D1%8B%D0%B9%20%D0%9E%D1%81%D0%BA%D0%BE%D0%BB%2C%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%20%D0%9B%D0%B5%D1%81%D0%BD%D0%BE%D0%B9%2C%2010&amp;rtt=auto" target="_blank" rel="noopener">Маршрут в&nbsp;Яндекс Картах</a>
+            </div>
+            <div class="s-hero__actions s-hero__actions--left">
+              <a class="pill5 pill5--navy" href="kontakty.html#zapis">Записаться</a>
+              <a class="pill5 pill5--ink" href="kontakty.html">Контакты и&nbsp;карта</a>
+            </div>
+          </div>
+          <dl class="visit5__facts">
+            <div><dt>Телефон</dt><dd><span class="ghost">нужно от салона</span></dd></div>
+            <div><dt>Часы работы</dt><dd><span class="ghost">нужно от салона</span></dd></div>
+            <div><dt>ВКонтакте</dt><dd><span class="ghost">ссылка — от салона</span></dd></div>
+          </dl>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" data-footer></footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/silk.js"></script>
+  <script src="assets/js/v5.js"></script>
+  <script src="assets/js/touches.js"></script>
+</body>
+</html>
