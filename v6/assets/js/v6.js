@@ -196,8 +196,15 @@
      Главная
      ====================================================================== */
 
-  var MARKS = window.TK_MARKS;
-  var zoneCount = window.TK_zoneCount;
+  // Координаты зон и счётчик — из общего app.js; запасной вариант на случай,
+  // если браузер отдал из кэша старую версию app.js без них
+  var MARKS = window.TK_MARKS || {
+    face: { face: [183, 258], scalp: [167, 102], eyes: [233, 189], nasolabial: [244, 266], lips: [262, 294], upperlip: [244, 339], ears: [78, 208] },
+    body: { body: [200, 168], arms: [76, 205], underarms: [166, 141], back: [201, 150], bikini: [166, 239], legs: [179, 305] },
+  };
+  var zoneCount = window.TK_zoneCount || function (zone) {
+    return P.filter(function (p) { return (p.zones || []).indexOf(zone) !== -1; }).length;
+  };
 
   // ---------- Контент сцен ----------
 
