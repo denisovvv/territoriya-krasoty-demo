@@ -2,32 +2,36 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
+  <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Контакты — Территория красоты</title>
   <meta name="description" content="Салон «Территория красоты»: г. Старый Оскол, м-н Лесной, 10.">
-  <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#001b40">
-  <link rel="preload" href="assets/fonts/tenor-cyr.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="assets/fonts/golos-cyr.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/v5.css">
-  <link rel="icon" href="assets/img/logo-original.png">
+  <link rel="preload" href="../assets/fonts/tenor-cyr.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../assets/fonts/golos-cyr.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/v7.css">
+  <link rel="icon" href="../assets/img/logo-original.png">
   <script>document.documentElement.classList.add('js')</script>
 </head>
-<body data-page="contacts" class="v5 v5-in">
-  <canvas class="silk" data-silk aria-hidden="true"></canvas>
+<body data-page="contacts" class="v7 v7-in">
 
   <div class="demo-bar">
     <div class="wrap">
       <span class="ghost-swatch" aria-hidden="true"></span>
-      <span>Демо, вариант 5. Данные — из сводки по салону. Пунктиром отмечено то, что нужно получить от салона.</span>
+      <span>Демо. Данные — из сводки по салону. Пунктиром отмечено то, что нужно получить от салона.</span>
+      <nav class="variant-switch" aria-label="Варианты дизайна">
+        <a href="../v5/kontakty.html">Шёлк</a>
+        <a href="../v6/kontakty.html">Движение</a>
+        <a href="kontakty.html" aria-current="page">Воздух</a>
+      </nav>
     </div>
   </div>
 
-  <header class="site-header site-header--clear">
+  <header class="site-header h7">
     <div class="wrap">
       <a class="brand" href="index.html" aria-label="Территория красоты — на главную">
-        <img src="assets/img/logo-white.png" alt="Территория красоты" width="340" height="230">
+        <img src="../assets/img/logo-navy.svg" alt="Территория красоты" width="340" height="220">
       </a>
       <nav class="nav" aria-label="Основное меню">
         <a href="index.html">Главная</a>
@@ -35,7 +39,7 @@
         <a href="mastera.html">Мастера</a>
         <a href="kontakty.html" aria-current="page">Контакты</a>
       </nav>
-      <a class="btn btn--light" href="kontakty.html#zapis">Записаться</a>
+      <a class="link7" href="kontakty.html#zapis">Записаться</a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Открыть меню">
         <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true"><path d="M3 6h14M3 10h14M3 14h14"/></svg>
       </button>
@@ -43,24 +47,19 @@
   </header>
 
   <main>
-    <section class="page-head" aria-labelledby="page-title">
+    <section class="head7" aria-labelledby="page-title">
       <div class="wrap">
-        <div class="page-head__row">
-          <h1 class="s-title" id="page-title">Контакты</h1>
-          <p class="s-lead">Медицинский салон косметологии «Территория красоты».</p>
+        <div class="head7__row">
+          <h1 class="head7__title" id="page-title">Контакты</h1>
+          <p class="head7__lead">Медицинский салон косметологии «Территория красоты».</p>
         </div>
       </div>
     </section>
 
-    <section class="in5-sec in5-sec--first" aria-label="Адрес и связь">
-      <div class="wrap">
-        <div class="card5 contacts">
+    <section class="sheet section" style="padding-top:clamp(40px,5vw,72px)" aria-label="Адрес и связь">
+      <div class="wrap contacts">
         <dl class="contact-list">
-          <div><dt>Адрес</dt><dd>г.&nbsp;Старый Оскол,<br>м-н&nbsp;Лесной,&nbsp;10
-            <div class="addr5">
-              <button type="button" class="chip5" data-copy="г. Старый Оскол, м-н Лесной, 10">Скопировать адрес</button>
-              <a class="chip5" href="https://yandex.ru/maps/?rtext=~%D0%A1%D1%82%D0%B0%D1%80%D1%8B%D0%B9%20%D0%9E%D1%81%D0%BA%D0%BE%D0%BB%2C%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%20%D0%9B%D0%B5%D1%81%D0%BD%D0%BE%D0%B9%2C%2010&amp;rtt=auto" target="_blank" rel="noopener">Маршрут в&nbsp;Яндекс Картах</a>
-            </div></dd></div>
+          <div><dt>Адрес</dt><dd>г.&nbsp;Старый Оскол,<br>м-н&nbsp;Лесной,&nbsp;10</dd></div>
           <div><dt>Телефон</dt><dd><span class="ghost">нужно от салона</span></dd></div>
           <div><dt>E-mail</dt><dd><span class="ghost">нужно от салона</span></dd></div>
           <div><dt>Часы работы</dt><dd><span class="ghost">нужно от салона</span></dd></div>
@@ -74,32 +73,27 @@
           </div>
           <p class="map-caption">Карта построена по&nbsp;адресу из&nbsp;сводки. Вход, парковку и&nbsp;ориентиры уточнит салон.</p>
         </div>
-        </div>
       </div>
     </section>
 
-    <section class="in5-sec field" id="zapis" aria-labelledby="booking-title">
-      <div class="wrap">
-        <div class="glass5 booking">
+    <section class="field section" id="zapis" aria-labelledby="booking-title">
+      <div class="wrap booking">
         <div>
-          <h2 class="s-title s-title--sm" id="booking-title">Запись</h2>
-          <p class="s-lead">Онлайн-запись будет работать через виджет Арники: выбор процедуры, специалиста и&nbsp;времени.</p>
+          <h2 class="display h2" id="booking-title">Запись</h2>
+          <p class="lead" style="margin-top:20px">Онлайн-запись будет работать через виджет Арники: выбор процедуры, специалиста и&nbsp;времени.</p>
         </div>
-        <div class="ghost-media steps5-wrap">
-          <ol class="steps5" data-steps aria-hidden="true"><li>Процедура</li><li>Специалист</li><li>Дата и&nbsp;время</li></ol>
+        <div class="ghost-media">
           <span>Виджет онлайн-записи Арника — подключается после получения доступа к&nbsp;настройкам и&nbsp;тарифу. Условия предоплаты согласуются с&nbsp;юристом.</span>
         </div>
-        </div>
       </div>
     </section>
 
-    <section class="in5-sec" aria-labelledby="docs-title">
+    <section class="sheet section" aria-labelledby="docs-title">
       <div class="wrap">
-        <div class="in5-head">
-          <h2 class="s-title s-title--sm" id="docs-title">Сведения и&nbsp;документы</h2>
-          <p class="s-lead">Медицинская организация обязана публиковать эти сведения. Тексты и&nbsp;данные предоставляет салон, формулировки утверждает юрист.</p>
+        <div class="section__head">
+          <h2 class="display h2" id="docs-title">Сведения и&nbsp;документы</h2>
+          <p class="lead">Медицинская организация обязана публиковать эти сведения. Тексты и&nbsp;данные предоставляет салон, формулировки утверждает юрист.</p>
         </div>
-        <div class="card5">
         <ul class="docs">
           <li><span>Реквизиты организации</span><span class="ghost">нужно от салона</span></li>
           <li><span>Лицензия на&nbsp;медицинскую деятельность</span><span class="ghost">нужно от салона</span></li>
@@ -109,17 +103,14 @@
           <li><span>Публичная оферта</span><span class="ghost">нужно от салона</span></li>
           <li><span>Правила предоставления платных медицинских услуг</span><span class="ghost">нужно от салона</span></li>
         </ul>
-        </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer" data-footer></footer>
 
-  <script src="assets/js/data.js"></script>
-  <script src="assets/js/app.js"></script>
-  <script src="assets/js/silk.js"></script>
-  <script src="assets/js/v5.js"></script>
-  <script src="assets/js/touches.js"></script>
+  <script src="../assets/js/data.js"></script>
+  <script src="../assets/js/app.js"></script>
+  <script src="assets/js/v7.js"></script>
 </body>
 </html>

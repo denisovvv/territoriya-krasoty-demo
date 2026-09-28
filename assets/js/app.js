@@ -221,6 +221,10 @@
     },
   };
 
+  // Координаты зон и счётчик — для сцен вариантов, которые рисуют зоны по-своему
+  window.TK_MARKS = MARKS;
+  window.TK_zoneCount = zoneCount;
+
   function renderAtlas() {
     var NS = 'http://www.w3.org/2000/svg';
     ['face', 'body'].forEach(function (plate) {
@@ -275,6 +279,8 @@
       var visible = false;
       var placed = false;
       var hovering = false;
+      // Вариант может попросить подсветку только по наведению (data-no-cycle на атласе)
+      var noCycle = !!plateEl.closest('[data-no-cycle]');
       var startTimer = null;
 
       function activate(zone) {
@@ -305,7 +311,7 @@
         cycleTimer = null;
       }
       function startCycle() {
-        if (reduceMotion || cycleTimer || !visible || hovering) return;
+        if (reduceMotion || cycleTimer || !visible || hovering || noCycle) return;
         activate(zones[cycleI % zones.length]);
         cycleTimer = setInterval(function () {
           cycleI++;
